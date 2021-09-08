@@ -21,6 +21,9 @@ An Android SurfaceView for displaying real-time data
             titleColorString = "#BABABA"
             range = 15 * 100L
             curveWidth = 3
+            
+            // Show all data with approximation
+            showAllData = true
         }
 #### onResume()
        override fun onResume() {
