@@ -37,7 +37,7 @@ The library also supports data approximation.
            timer1.scheduleAtFixedRate(
               timerTask {
                   val x = SystemClock.elapsedRealtime()
-                  var y = Random().nextInt(100) // nextFloat()
+                  var y = Random().nextFloat() * 10f - 5f
                   chartView.add(x, y)
               }, 0, 10)
         }      
