@@ -26,7 +26,7 @@ The library also supports data approximation.
             curveWidth = 3
             
             // Show all data with approximation
-            showAllData = true
+            showAllData = false
         }
 #### onResume()
        override fun onResume() {
@@ -38,7 +38,7 @@ The library also supports data approximation.
               timerTask {
                   val x = SystemClock.elapsedRealtime()
                   var y = Random().nextInt(100) // nextFloat()
-                  view1.add(x, y)
+                  chartView.add(x, y)
               }, 0, 10)
         }      
 #### onPause()
