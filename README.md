@@ -47,6 +47,16 @@ The library also supports data approximation.
            
            chartView.pause()
        }
+       
+## **Download**
+
+     maven { url 'https://jitpack.io' }
+###
+     dependencies {
+         implementation 'com.github.YablokovDmitry:ChartView:1.4'
+     }    
+
+
 
 ### **Developed By**
   - Dmitry Yablokov - [dnyablokov@gmail.com](mailto:dnyablokov@gmail.com)
