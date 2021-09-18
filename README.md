@@ -10,6 +10,20 @@ The library also supports data approximation.
 
 ## **Usage**
 
+Add it in your root build.gradle at the end of repositories:
+
+    repositories {
+	    ...
+        maven { url "https://jitpack.io" }
+    }	
+Add the dependency
+
+    dependencies {
+        ...
+        implementation 'com.github.YablokovDmitry:ChartView:1.4'
+    }
+### xml
+
      <com.ydn.chartview.ChartView
          android:id="@+id/chart"
          android:layout_width="match_parent"
@@ -48,15 +62,6 @@ The library also supports data approximation.
            chartView.pause()
        }
        
-## **Download**
-
-     maven { url 'https://jitpack.io' }
-###
-     dependencies {
-         implementation 'com.github.YablokovDmitry:ChartView:1.4'
-     }    
-
-
 
 ### **Developed By**
   - Dmitry Yablokov - [dnyablokov@gmail.com](mailto:dnyablokov@gmail.com)
