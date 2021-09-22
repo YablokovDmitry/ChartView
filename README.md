@@ -5,7 +5,7 @@ Implementation of Android customizable SurfaceView for displaying real-time data
 The library also supports data approximation.  
 #
 
-<img src=https://user-images.githubusercontent.com/3678050/134299739-52951d99-1842-4185-aa46-cf998a8e301b.gif width="270" height="585">
+<img src=https://user-images.githubusercontent.com/3678050/134300320-7bd5d73f-5540-4a38-ab36-d0ca302ba5ed.gif width="270" height="585">
 
 ## **Usage**
 
